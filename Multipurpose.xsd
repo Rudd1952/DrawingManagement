@@ -1,0 +1,37 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="dataroot">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Drawings" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="DrawingNumber"/>
+              <xs:element type="xs:string" name="DrawingTitle"/>
+              <xs:element type="xs:string" name="DrawingDescription"/>
+              <xs:element type="xs:string" name="StartDate" minOccurs="0"/>
+              <xs:element type="xs:string" name="Scale"/>
+              <xs:element type="xs:string" name="Drawn" minOccurs="0"/>
+              <xs:element type="xs:string" name="RevisionNumber"/>
+              <xs:element type="xs:string" name="Consultant"/>
+              <xs:element type="xs:string" name="Building"/>
+              <xs:element type="xs:string" name="BuildingAB"/>
+              <xs:element type="xs:string" name="Floor"/>
+              <xs:element type="xs:string" name="FloorID" minOccurs="0"/>
+              <xs:element type="xs:string" name="Discipline"/>
+              <xs:element type="xs:string" name="Site"/>
+              <xs:element type="xs:string" name="DWGFile"/>
+              <xs:element type="xs:string" name="DWGLocation"/>
+              <xs:element type="xs:string" name="PDFFile"/>
+              <xs:element type="xs:string" name="PDFLocation"/>
+              <xs:element type="xs:string" name="JPGFile"/>
+              <xs:element type="xs:string" name="JPGLocation"/>
+              <xs:element type="xs:string" name="Subject"/>
+              <xs:element type="xs:string" name="FileLocation"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute type="xs:dateTime" name="generated"/>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

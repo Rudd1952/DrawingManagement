@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+
+  <!-- Creat a key (index) for each of the nodes that need listings -->
+  <xsl:key name="List-of-floors" match="Drawings" use="Floor" />
+  <xsl:key name="List-of-disciplines" match="Drawings" use="Discipline" />
+  <xsl:key name="List-of-subjects" match="Drawings" use="Subject" />
+  <!-- Match the xsl file with the xml using the root node as the template -->
+  <xsl:template match="/*">
+    <html>
+
+
+      <body>
+        <!--    <xsl:value-of select="$varBuilding" /><br />
+
+	<p>Comment 1</p>
+ 
+	<xsl:for-each-group select="//Drawings" group-by="Floor">
+			<xsl:value-of select="current-grouping-key()"/>
+			<xsl:value-of select="Floor" />
+			<xsl:text>
+			</xsl:text>	
+	</xsl:for-each-group>
+	
+	<p>Comment 2</p> -->
+
+        <h3>Floors</h3>
+        <select name="FloorId" class="dropdown-btn" size="10">
+          <!-- 	<option>All floors</option> -->
+          <xsl:for-each select="//Drawings[Building = $varBuilding][count(. | key('List-of-floors', Floor)[Building = $varBuilding][1]) = 1]">
+            <xsl:sort select="FloorID" />
+            <xsl:variable name="FloorId">
+              <xsl:value-of select="Floor" />
+            </xsl:variable>
+            <option onclick="RightNavList('{$varBuilding}','{$FloorId}','Floor')" >
+              <xsl:value-of select="Floor" /> (<xsl:value-of select="count(key('List-of-floors', Floor)[.][Building = $varBuilding]) "/>)
+
+            </option>
+            <!--
+		<xsl:variable name="FloorId"><xsl:value-of select="Floor" /></xsl:variable>
+		<p onclick="RightListing('{$FloorId}')"> <xsl:value-of select="Floor" /> (<xsl:value-of select="count(key('List-of-floors', Floor)[.]) "/>)</p>
+-->
+          </xsl:for-each>
+        </select>
+
+
+        <h3>Disciplines</h3>
+        <select name="DisciplineId" class="dropdown-btn" size="10">
+          <!-- 	<option>All disciplines</option> -->
+          <xsl:for-each select="//Drawings[Building = $varBuilding][count(. | key('List-of-disciplines', Discipline)[Building = $varBuilding][1]) = 1]">
+            <xsl:sort select="Discipline" />
+            <xsl:variable name="DisciplineId">
+              <xsl:value-of select="Discipline" />
+            </xsl:variable>
+            <option onclick="RightNavList('{$varBuilding}','{$DisciplineId}','Discipline')" >
+              <xsl:value-of select="Discipline" /> (<xsl:value-of select="count(key('List-of-disciplines', Discipline)[.][Building = $varBuilding]) "/>)
+
+            </option>
+
+            <!--		<xsl:variable name="DisciplineId"><xsl:value-of select="Discipline" /></xsl:variable>
+		<p onclick="RightListing('{$DisciplineId}')"> <xsl:value-of select="Discipline" /> (<xsl:value-of select="count(key('List-of-disciplines', Discipline)[.]) "/>)</p>
+-->
+          </xsl:for-each>
+        </select>
+
+
+        <h3>Subjects</h3>
+        <select name="SubjectId" class="dropdown-btn" size="10">
+          <!-- 	<option>All subjects</option> -->
+          <xsl:for-each select="//Drawings[Building = $varBuilding][count(. | key('List-of-subjects', Subject)[Building = $varBuilding][1]) = 1]">
+            <xsl:sort select="Subject" />
+            <xsl:variable name="SubjectId">
+              <xsl:value-of select="Subject" />
+            </xsl:variable>
+            <option onclick="RightNavList('{$varBuilding}','{$SubjectId}','Subject')" >
+              <xsl:value-of select="Subject" /> (<xsl:value-of select="count(key('List-of-subjects', Subject)[.][Building = $varBuilding]) "/>)
+
+            </option>
+
+            <!--
+		<xsl:variable name="SubjectId"><xsl:value-of select="Subject" /></xsl:variable>
+		<p onclick="RightListing('{$SubjectId}')"> <xsl:value-of select="Subject" /> (<xsl:value-of select="count(key('List-of-subjects', Subject)[.]) "/>)</p>
+-->
+          </xsl:for-each>
+        </select>
+
+
+        <br />
+        <br />
+
+      </body>
+    </html>
+  </xsl:template>
+
+</xsl:stylesheet>

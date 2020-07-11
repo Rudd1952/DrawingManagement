@@ -1,0 +1,451 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wits DRS</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="jquery/jquery-3.5.1.js"></script>
+    <script src="popper.js/umd/popper.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
+    <link href="style.css" rel="stylesheet">
+
+    <style>
+        <!-- .dropdown-submenu {
+            position: relative;
+        }
+
+            .dropdown-submenu a::after {
+                transform: rotate(-90deg);
+                position: absolute;
+                right: 3px;
+                top: 40%;
+            }
+
+            .dropdown-submenu:hover .dropdown-menu, .dropdown-submenu:focus .dropdown-menu {
+                display: flex;
+                flex-direction: column;
+                position: absolute !important;
+                margin-top: -30px;
+                left: 100%;
+            }
+
+        @media (max-width: 992px) {
+            .dropdown-menu {
+                width: 50%;
+            }
+
+                .dropdown-menu .dropdown-submenu {
+                    width: auto;
+                }
+        }
+        -->
+    </style>
+
+    <style>
+        <!-- body {
+            font-family: "Lato", sans-serif;
+            /*  background-color: lightgrey; */
+        }
+
+        /* Fixed sidenav, full height */
+        .sidenav {
+            width: 20%;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            overflow-x: hidden;
+            padding-top: 0px;
+            padding-left: 10px;
+        }
+
+            /* Style the sidenav links and the dropdown button */
+            .sidenav p, .dropdown-btn {
+                text-decoration: none;
+                font-size: 14px;
+                color: black;
+                display: block;
+                border: none;
+                background: none;
+                width: 100%;
+                text-align: left;
+                cursor: pointer;
+                outline: none;
+            }
+
+                /* On mouse-over */
+                .sidenav p:hover, .dropdown-btn:hover {
+                    color: black;
+                    /*  background-color: grey;  */
+                }
+
+        /* Main content */
+        .main {
+            margin-left: 20%; /* Same as the width of the sidenav */
+            font-size: 14px; /* Increased text to enable scrolling */
+            height: 100%;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            padding-top: 0px;
+            padding-left: 10px;
+        }
+
+        /* Add an active class to the active dropdown button */
+        .active {
+            /*  background-color: yellow; */
+            /*  color: black; */
+        }
+
+        /* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+        .dropdown-sites, .dropdown-buildings, .dropdown-floors, .dropdown-disciplines, .dropdown-subjects {
+            display: none;
+            /*  background-color: beige; */
+            padding-left: 8px;
+        }
+
+        /* Optional: Style the caret down icon */
+        .fa-caret-down {
+            float: right;
+            padding-right: 8px;
+        }
+
+        /* Some media queries for responsiveness */
+        @media screen and (max-height: 450px) {
+            .sidenav {
+                padding-top: 15px;
+            }
+
+                .sidenav a {
+                    font-size: 18px;
+                }
+        }
+        -->
+    </style>
+
+    <style>
+
+        .imagepic {
+            position: relative;
+            z-index: 0;
+        }
+
+            .imagepic:hover {
+                background-color: LightGray;
+                z-index: 1;
+            }
+
+            .imagepic span {
+                /*CSS for enlarged image*/
+                background-color: white;
+                background: #000000;
+                position: absolute;
+                padding: 5px;
+                left: -000px;
+                border: 1px solid black;
+                visibility: hidden;
+                color: black;
+                text-decoration: none;
+            }
+
+                .imagepic span img {
+                    /*CSS for enlarged image*/
+                    border-width: 0;
+                    padding: 2px;
+                    width: 500px;
+                    /*	max-width: 350px; */
+                }
+
+            .imagepic:hover span {
+                /*CSS for enlarged image on hover*/
+                background: #000000;
+                visibility: visible;
+                top: 20px;
+                left: auto;
+                background-color: #C0C0C0;
+            }
+    </style>
+
+
+</head>
+<body>
+
+    <!-- Navigation -->
+
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+
+            <!-- Dropdown -->
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Campus</a>
+
+                <div class="dropdown-menu">
+                    <div class="dropdown-submenu">
+                        <a class="dropdown-item test" tabindex="-1" href="#">East Campus<span class="caret"></span></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#working" onclick="LeftNavList('Solomon Mahlangu House')">Solomon Mahlangu House</a>
+                            <a class="dropdown-item" href="#working" onclick="LeftNavList('Richard Ward Building')">Richard Ward Building</a>
+                            <a class="dropdown-item disabled" href="#">Robert Sobukwe Block</a>
+                        </div>
+                    </div>
+                    <div class="dropdown-submenu">
+                        <a class="dropdown-item test" tabindex="-1" href="#">West Campus<span class="caret"></span></a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#working" onclick="LeftNavList('Law School & Library')">Law School & Library</a>
+                            <a class="dropdown-item disabled" href="#">Chamber of Mines Building</a>
+                        </div>
+                    </div>
+                    <a class="dropdown-item disabled" href="#">Medical Campus</a>
+                    <a class="dropdown-item disabled" href="#">Education Campus</a>
+                    <a class="dropdown-item disabled" href="#">Business School Campus</a>
+
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Buildings</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item test" href="#working" onclick="LeftNavList('Solomon Mahlangu House')">Solomon Mahlangu House</a>
+                    <a class="dropdown-item test" href="#working" onclick="LeftNavList('Richard Ward Building')">Richard Ward Building</a>
+                    <a class="dropdown-item test" href="#working" onclick="LeftNavList('Law School & Library')">Law School & Library</a>
+                    <a class="dropdown-item disabled" href="#">Chamber of Mines Building</a>
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Drawing Types</a>
+                <div class="dropdown-menu">
+                    <div class="dropdown-submenu">
+                        <a class="dropdown-item disabled" href="#">As-Built Archive</a>
+                        <a class="dropdown-item disabled" href="#">Council Approved Drawings</a>
+                        <a class="dropdown-item disabled" href="#">Design Sketches</a>
+                        <a class="dropdown-item disabled" href="#">Feasibility Drawings</a>
+                        <a class="dropdown-item disabled" href="#">Tender Drawings</a>
+                        <a class="dropdown-item disabled" href="#">Alteration Drawings</a>
+                        <a class="dropdown-item disabled" href="#">Current Drawings</a>
+                    </div>
+                </div>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" target="_blank" href="DRS-Readme.txt">About</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0	" action="#">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-primary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </nav>
+    <br>
+
+    <!--- Welcome Section -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-4">
+                <a class="navbar-brand" href="#"><img src="img/wits-logo.png"></a>
+            </div>
+            <div class="col-lg-8 text-center">
+                <h1><br>Drawing Retrieval System</h1>
+            </div>
+        </div>
+    </div>
+
+    <!--- Two Column Section -->
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-3">
+                <h3>Drawing retrieval</h3>
+                <!---------------------------------------------------------------------------------------------->
+                <!-- New code goes here -->
+
+
+
+                <p>By selecting a sequence of filters the system drills down to a small set of drawings that you are looking for.</p>
+                <p>Each drawing's captured information is displayed with a reasonable size image of the drawing which has sufficient detail for you to determine which drawing is actually being searched.</p>
+                <p>By selecting the image, a high resolution PDF drawing is opened in a new session for more detailed analysis.</p>
+                <br>
+                <a href="#" class="btn btn-primary">Learn More</a>
+            </div>
+            <div class="col-lg-9">
+                <img src="img/walkway_engineering.png" class="img-fluid">
+            </div>
+        </div>
+    </div>
+
+    <hr class="my-4" id="working">
+    <!--- Working area - Two Column Section -->
+
+    <div class="container-fluid padding">
+        <div class="row padding">
+            <div class="col-lg-3">
+                <p><div id="Listings"></div></p>
+            </div>
+            <div class="col-lg-9">
+                <h3><div id="RightHeading">This is text</div></h3>
+                <hr>
+                <div id="RightList">This is intro text<br></div>
+            </div>
+        </div>
+    </div>
+
+    <!--
+    <div class="sidenav">
+        <p><div id="Listings"></div></p>
+    </div>
+    <div class="main">
+        <h2><div id="RightHeading">This is text</div></h2>
+        <hr>
+        <div id="RightList">This is intro text<br></div>
+     </div>
+    -->
+    <!--- Footer -->
+    <hr class="my-4">
+    <footer>
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <img src="img/spaceworx.png">
+                    <hr class="light">
+                    <p>Tel: +27 8610 00713</p>
+                    <p>info@spaceworx.co.za</p>
+                    <p>6 Kinross Road,</p>
+                    <p>Parkview, Johannesburg</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5 class=>Our Hours</h5>
+                    <hr class="light">
+                    <p>Monday - Friday: 8am - 5pm</p>
+                    <p>Saturday: Closed</p>
+                    <p>Sunday: Closed</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5 class=>Service Area</h5>
+                    <hr class="light">
+                    <p>City, Province, 0000</p>
+                    <p>City, Province, 0000</p>
+                    <p>City, Province, 0000</p>
+                    <p>City, Province, 0000</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light">
+                    <h5>&copy;</h5>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+$(document).ready(function(){
+  $('.dropdown-submenu a.test').on("click", function(e){
+    $(this).next('ul').toggle();
+    e.stopPropagation();
+    e.preventDefault();
+  });
+});
+    </script>
+    <script>
+
+	function LeftNavList(vName)
+	{
+		//alert(vName);
+		document.getElementById("RightHeading").innerHTML = vName;
+		xml = loadXMLDoc("Multipurpose.xml");
+		xsl = loadXMLDoc("Element-Listing.xsl");
+
+		// code for IE
+		if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+		{
+		  ex = xml.transformNode(xsl);
+		  document.getElementById("Listings").innerHTML = ex;
+		}
+		// code for Chrome, Firefox, Opera, etc.
+		else if (document.implementation && document.implementation.createDocument)
+		{
+		  xsltProcessor = new XSLTProcessor();
+		  xsltProcessor.importStylesheet(xsl);
+		  xsltProcessor.setParameter(xsl,"varBuilding",vName);
+		  resultDocument = xsltProcessor.transformToFragment(xml, document);
+		  // Flush out any existing list and replace with new list
+		  oldList = document.getElementById("Listings");
+		  oldList.innerHTML = "";
+		  document.getElementById("Listings").appendChild(resultDocument);
+		  // Flush out any existing list without adding any new info
+		  oldList = document.getElementById("RightList");
+		  oldList.innerHTML = "";
+		  document.getElementById("RightList").appendChild();
+		}
+	}
+
+	function loadXMLDoc(filename)
+	{
+		if (window.ActiveXObject)
+		{
+		  xhttp = new ActiveXObject("Msxml2.XMLHTTP");
+		}
+		else
+		{
+		  xhttp = new XMLHttpRequest();
+		}
+		xhttp.open("GET", filename, false);
+		try {xhttp.responseType = "msxml-document"} catch(err) {} // Helping IE11
+		xhttp.send("");
+		return xhttp.responseXML;
+	}
+
+	function RightNavList(vName, vElement, vElemType)
+	{ // alert(vElemType + " " + vElement);
+		document.getElementById("RightHeading").innerHTML = vName;
+		xml = loadXMLDoc("Multipurpose.xml");
+		xsl = loadXMLDoc("Right-Listing.xsl");
+		// code for IE
+		if (window.ActiveXObject || xhttp.responseType == "msxml-document")
+		{
+		  ex = xml.transformNode(xsl);
+		  document.getElementById("RightList").innerHTML = ex;
+		}
+		// code for Chrome, Firefox, Opera, etc.
+		else if (document.implementation && document.implementation.createDocument)
+		{
+		  xsltProcessor = new XSLTProcessor();
+		  xsltProcessor.importStylesheet(xsl);
+		  xsltProcessor.setParameter(xsl,"varElem",vElemType);
+		  xsltProcessor.setParameter(xsl,"varName",vElement);
+		  xsltProcessor.setParameter(xsl,"varBuilding",vName);
+		  resultDocument = xsltProcessor.transformToFragment(xml, document);
+		  oldList = document.getElementById("RightList");
+		  oldList.innerHTML = "";
+		  document.getElementById("RightList").appendChild(resultDocument);
+		}
+	}
+    </script>
+
+    <script>
+/* Loop through all dropdown buttons to toggle between hiding and showing its dropdown content - This allows the user to have multiple dropdowns without any conflict */
+var dropdown = document.getElementsByClassName("dropdown-btn");
+var i;
+
+for (i = 0; i < dropdown.length; i++) {
+  dropdown[i].addEventListener("click", function() {
+  this.classList.toggle("active");
+  var dropdownContent = this.nextElementSibling;
+  if (dropdownContent.style.display === "block") {
+  dropdownContent.style.display = "none";
+  } else {
+  dropdownContent.style.display = "block";
+  }
+  });
+}
+    </script>
+</body>
+</html>

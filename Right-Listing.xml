@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  <!--
+<xsl:key name="List-of-sites" match="Drawings" use="Site" />
+<xsl:key name="List-of-buildings" match="Drawings" use="Building" />
+<xsl:key name="List-of-floors" match="Drawings" use="Floor" />
+<xsl:key name="List-of-disciplines" match="Drawings" use="Discipline" />
+<xsl:key name="List-of-subjects" match="Drawings" use="Subject" />
+-->
+
+  <xsl:template match="/*">
+    <html>
+      <body>
+
+        List of: <xsl:value-of select="$varBuilding" /> / <xsl:value-of select="$varElem" /> / <xsl:value-of select="$varName" /><br />
+        <table border="1" id="tb01">
+          <tbody>
+
+            <!--	<xsl:variable name="varTest" select="concat('CouncilDrawings/Drawings[', $varElem, '=', $varName, ']')" />
+	<xsl:value-of select="$varTest" /> <br />
+	<xsl:value-of select="concat('CouncilDrawings/Drawings[', $varElem, '=', $varName, ']')" /> -->
+
+            <xsl:choose>
+              <xsl:when test="$varElem = 'Site'">
+                <xsl:for-each select="//Drawings[Site = $varName][Building = $varBuilding]">
+                  <xsl:sort select="Building" />
+
+                  <xsl:variable name="LinktoJPGLocation">
+                    <xsl:value-of select="JPGLocation" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoJPG">
+                    <xsl:value-of select="JPGFile" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoThumbnail">
+                    <xsl:value-of select="concat($LinktoJPGLocation,$LinktoJPG)" />
+                  </xsl:variable>
+
+                  <xsl:variable name="LinktoPDFLocation">
+                    <xsl:value-of select="PDFLocation" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoPDF">
+                    <xsl:value-of select="PDFFile" />
+                  </xsl:variable>
+                  <xsl:variable name="OpenPDF">
+                    <xsl:value-of select="concat($LinktoPDFLocation,$LinktoPDF)" />
+                  </xsl:variable>
+
+                  <xsl:variable name="LinktoDWGLocation">
+                    <xsl:value-of select="DWGLocation" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoDWG">
+                    <xsl:value-of select="DWGFile" />
+                  </xsl:variable>
+                  <xsl:variable name="OpenDWG">
+                    <xsl:value-of select="concat($LinktoDWGLocation,$LinktoDWG)" />
+                  </xsl:variable>
+
+                  <tr>
+                    <td>
+
+                      <!--			Site: <xsl:value-of select="Site" /><br /> -->
+                      Building: <strong>
+                        <xsl:value-of select="Building" />
+                      </strong><br />
+                      Floor: <xsl:value-of select="Floor" /><br />
+                      Consultant: <xsl:value-of select="Consultant" /><br />
+                      Discipline: <xsl:value-of select="Discipline" /><br />
+                      Subject: <xsl:value-of select="Subject" /><br />
+                      <br />
+                      Drawing Title: <strong>
+                        <xsl:value-of select="DrawingDescription" />
+                      </strong><br />
+                      Drawing Number: <xsl:value-of select="DrawingNumber" /><br />
+                      Revision: <xsl:value-of select="RevisionNumber" /><br />
+                      Scale: <xsl:value-of select="Scale" /><br />
+                      Date Drawn: <xsl:value-of select="FirstDate" /><br />
+                      Date Approved: <xsl:value-of select="LastDate" /><br />
+                      <br />
+                      PDF Filename: <xsl:copy-of select="$LinktoPDF" /><br />
+                      PDF File Location: <xsl:value-of select="$LinktoPDFLocation" /><br />
+                      <br />
+                      CAD Drawing: <a target="_blank" href="{$OpenDWG}">
+                        <xsl:copy-of select="$OpenDWG" />
+                      </a><br />
+                      <!-- <button><a target="_blank" href="{$OpenDWG}"><xsl:value-of select="{$OpenDWG}" /></a></button><br /> -->
+                    </td>
+                    <td>
+                      <a class='imagepic' target="_blank" href="{$OpenPDF}">
+                        <img src="{$LinktoThumbnail}" width="500" />
+                        <!-- <span><img src="{$LinktoThumbnail}" /></span> -->
+                      </a>
+
+                    </td>
+                  </tr>
+
+                </xsl:for-each>
+
+              </xsl:when>
+
+              <xsl:when test="$varElem = 'Building'">
+                <xsl:for-each select="//Drawings[Building = $varName][Building = $varBuilding]">
+                  <xsl:sort select="LastDate" />
+
+                  <xsl:variable name="LinktoJPGLocation">
+                    <xsl:value-of select="JPGLocation" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoJPG">
+                    <xsl:value-of select="JPGFile" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoThumbnail">
+                    <xsl:value-of select="concat($LinktoJPGLocation,$LinktoJPG)" />
+                  </xsl:variable>
+
+                  <xsl:variable name="LinktoPDFLocation">
+                    <xsl:value-of select="PDFLocation" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoPDF">
+                    <xsl:value-of select="PDFFile" />
+                  </xsl:variable>
+                  <xsl:variable name="OpenPDF">
+                    <xsl:value-of select="concat($LinktoPDFLocation,$LinktoPDF)" />
+                  </xsl:variable>
+
+                  <xsl:variable name="LinktoDWGLocation">
+                    <xsl:value-of select="DWGLocation" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoDWG">
+                    <xsl:value-of select="DWGFile" />
+                  </xsl:variable>
+                  <xsl:variable name="OpenDWG">
+                    <xsl:value-of select="concat($LinktoDWGLocation,$LinktoDWG)" />
+                  </xsl:variable>
+
+                  <tr>
+                    <td>
+
+                      <!--			Site: <xsl:value-of select="Site" /><br /> -->
+                      Building: <strong>
+                        <xsl:value-of select="Building" />
+                      </strong><br />
+                      Floor: <xsl:value-of select="Floor" /><br />
+                      Consultant: <xsl:value-of select="Consultant" /><br />
+                      Discipline: <xsl:value-of select="Discipline" /><br />
+                      Subject: <xsl:value-of select="Subject" /><br />
+                      <br />
+                      Drawing Title: <strong>
+                        <xsl:value-of select="DrawingDescription" />
+                      </strong><br />
+                      Drawing Number: <xsl:value-of select="DrawingNumber" /><br />
+                      Revision: <xsl:value-of select="RevisionNumber" /><br />
+                      Scale: <xsl:value-of select="Scale" /><br />
+                      Date Drawn: <xsl:value-of select="FirstDate" /><br />
+                      Date Last Revised: <xsl:value-of select="LastDate" /><br />
+                      <br />
+                      PDF Filename: <xsl:copy-of select="$LinktoPDF" /><br />
+                      PDF File Location: <xsl:value-of select="$LinktoPDFLocation" /><br />
+                      <br />
+                      CAD Drawing: <a target="_blank" href="{$OpenDWG}">
+                        <xsl:copy-of select="$OpenDWG" />
+                      </a><br />
+                      <!-- <button><a target="_blank" href="{$OpenDWG}"><xsl:value-of select="{$OpenDWG}" /></a></button><br /> -->
+                      <br />
+                    </td>
+                    <td>
+                      <a class='imagepic' target="_blank" href="{$OpenPDF}">
+                        <img src="{$LinktoThumbnail}" width="500" />
+                        <!-- <span><img src="{$LinktoThumbnail}" /></span> -->
+                      </a>
+
+                    </td>
+                  </tr>
+
+                </xsl:for-each>
+              </xsl:when>
+
+              <xsl:when test="$varElem = 'Floor'">
+                <xsl:for-each select="//Drawings[Floor = $varName][Building = $varBuilding]">
+                  <xsl:sort select="Building" />
+
+                  <xsl:variable name="LinktoJPGLocation">
+                    <xsl:value-of select="JPGLocation" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoJPG">
+                    <xsl:value-of select="JPGFile" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoThumbnail">
+                    <xsl:value-of select="concat($LinktoJPGLocation,$LinktoJPG)" />
+                  </xsl:variable>
+
+                  <xsl:variable name="LinktoPDFLocation">
+                    <xsl:value-of select="PDFLocation" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoPDF">
+                    <xsl:value-of select="PDFFile" />
+                  </xsl:variable>
+                  <xsl:variable name="OpenPDF">
+                    <xsl:value-of select="concat($LinktoPDFLocation,$LinktoPDF)" />
+                  </xsl:variable>
+
+                  <xsl:variable name="LinktoDWGLocation">
+                    <xsl:value-of select="DWGLocation" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoDWG">
+                    <xsl:value-of select="DWGFile" />
+                  </xsl:variable>
+                  <xsl:variable name="OpenDWG">
+                    <xsl:value-of select="concat($LinktoDWGLocation,$LinktoDWG)" />
+                  </xsl:variable>
+
+                  <tr>
+                    <td>
+
+                      <!--			Site: <xsl:value-of select="Site" /><br /> -->
+                      Building: <strong>
+                        <xsl:value-of select="Building" />
+                      </strong><br />
+                      Floor: <xsl:value-of select="Floor" /><br />
+                      Consultant: <xsl:value-of select="Consultant" /><br />
+                      Discipline: <xsl:value-of select="Discipline" /><br />
+                      Subject: <xsl:value-of select="Subject" /><br />
+                      <br />
+                      Drawing Title: <strong>
+                        <xsl:value-of select="DrawingDescription" />
+                      </strong><br />
+                      Drawing Number: <xsl:value-of select="DrawingNumber" /><br />
+                      Revision: <xsl:value-of select="RevisionNumber" /><br />
+                      Scale: <xsl:value-of select="Scale" /><br />
+                      Date Drawn: <xsl:value-of select="FirstDate" /><br />
+                      Date Last Revised: <xsl:value-of select="LastDate" /><br />
+                      <br />
+                      PDF Filename: <xsl:copy-of select="$LinktoPDF" /><br />
+                      PDF File Location: <xsl:value-of select="$LinktoPDFLocation" /><br />
+                      <br />
+                      CAD Drawing: <a target="_blank" href="{$OpenDWG}">
+                        <xsl:copy-of select="$OpenDWG" />
+                      </a><br />
+                      <!-- <button><a target="_blank" href="{$OpenDWG}"><xsl:value-of select="{$OpenDWG}" /></a></button><br /> -->
+                      <br />
+                    </td>
+                    <td>
+                      <a class='imagepic' target="_blank" href="{$OpenPDF}">
+                        <img src="{$LinktoThumbnail}" width="500" />
+                        <!-- <span><img src="{$LinktoThumbnail}" /></span> -->
+                      </a>
+
+                    </td>
+                  </tr>
+
+                </xsl:for-each>
+
+              </xsl:when>
+
+              <xsl:when test="$varElem = 'Discipline'">
+                <xsl:for-each select="//Drawings[Discipline = $varName][Building = $varBuilding]">
+
+                  <xsl:variable name="LinktoJPGLocation">
+                    <xsl:value-of select="JPGLocation" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoJPG">
+                    <xsl:value-of select="JPGFile" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoThumbnail">
+                    <xsl:value-of select="concat($LinktoJPGLocation,$LinktoJPG)" />
+                  </xsl:variable>
+
+                  <xsl:variable name="LinktoPDFLocation">
+                    <xsl:value-of select="PDFLocation" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoPDF">
+                    <xsl:value-of select="PDFFile" />
+                  </xsl:variable>
+                  <xsl:variable name="OpenPDF">
+                    <xsl:value-of select="concat($LinktoPDFLocation,$LinktoPDF)" />
+                  </xsl:variable>
+
+                  <xsl:variable name="LinktoDWGLocation">
+                    <xsl:value-of select="DWGLocation" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoDWG">
+                    <xsl:value-of select="DWGFile" />
+                  </xsl:variable>
+                  <xsl:variable name="OpenDWG">
+                    <xsl:value-of select="concat($LinktoDWGLocation,$LinktoDWG)" />
+                  </xsl:variable>
+
+                  <tr>
+                    <td>
+
+                      <!--			Site: <xsl:value-of select="Site" /><br /> -->
+                      Building: <strong>
+                        <xsl:value-of select="Building" />
+                      </strong><br />
+                      Floor: <xsl:value-of select="Floor" /><br />
+                      Consultant: <xsl:value-of select="Consultant" /><br />
+                      Discipline: <xsl:value-of select="Discipline" /><br />
+                      Subject: <xsl:value-of select="Subject" /><br />
+                      <br />
+                      Drawing Title: <strong>
+                        <xsl:value-of select="DrawingDescription" />
+                      </strong><br />
+                      Drawing Number: <xsl:value-of select="DrawingNumber" /><br />
+                      Revision: <xsl:value-of select="RevisionNumber" /><br />
+                      Scale: <xsl:value-of select="Scale" /><br />
+                      Date Drawn: <xsl:value-of select="FirstDate" /><br />
+                      Date Approved: <xsl:value-of select="LastDate" /><br />
+                      <br />
+                      PDF Filename: <xsl:copy-of select="$LinktoPDF" /><br />
+                      PDF File Location: <xsl:value-of select="$LinktoPDFLocation" /><br />
+                      <br />
+                      CAD Drawing: <a target="_blank" href="{$OpenDWG}">
+                        <xsl:copy-of select="$LinktoDWGLocation" />
+                      </a><br />
+                      <br />
+                    </td>
+                    <td>
+                      <a class='imagepic' target="_blank" href="{$OpenPDF}">
+                        <img src="{$LinktoThumbnail}" width="500" />
+                        <!-- <span><img src="{$LinktoThumbnail}" /></span> -->
+                      </a>
+
+                    </td>
+                  </tr>
+
+                </xsl:for-each>
+              </xsl:when>
+
+              <xsl:when test="$varElem = 'Subject'">
+                <xsl:for-each select="//Drawings[Subject = $varName][Building = $varBuilding]">
+                  <xsl:sort select="Building" />
+
+                  <xsl:variable name="LinktoJPGLocation">
+                    <xsl:value-of select="JPGLocation" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoJPG">
+                    <xsl:value-of select="JPGFile" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoThumbnail">
+                    <xsl:value-of select="concat($LinktoJPGLocation,$LinktoJPG)" />
+                  </xsl:variable>
+
+                  <xsl:variable name="LinktoPDFLocation">
+                    <xsl:value-of select="PDFLocation" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoPDF">
+                    <xsl:value-of select="PDFFile" />
+                  </xsl:variable>
+                  <xsl:variable name="OpenPDF">
+                    <xsl:value-of select="concat($LinktoPDFLocation,$LinktoPDF)" />
+                  </xsl:variable>
+
+                  <xsl:variable name="LinktoDWGLocation">
+                    <xsl:value-of select="DWGLocation" />
+                  </xsl:variable>
+                  <xsl:variable name="LinktoDWG">
+                    <xsl:value-of select="DWGFile" />
+                  </xsl:variable>
+                  <xsl:variable name="OpenDWG">
+                    <xsl:value-of select="concat($LinktoDWGLocation,$LinktoDWG)" />
+                  </xsl:variable>
+
+                  <tr>
+                    <td>
+
+                      <!--			Site: <xsl:value-of select="Site" /><br /> -->
+                      Building: <strong>
+                        <xsl:value-of select="Building" />
+                      </strong><br />
+                      Floor: <xsl:value-of select="Floor" /><br />
+                      Consultant: <xsl:value-of select="Consultant" /><br />
+                      Discipline: <xsl:value-of select="Discipline" /><br />
+                      Subject: <xsl:value-of select="Subject" /><br />
+                      <br />
+                      Drawing Title: <strong>
+                        <xsl:value-of select="DrawingDescription" />
+                      </strong><br />
+                      Drawing Number: <xsl:value-of select="DrawingNumber" /><br />
+                      Revision: <xsl:value-of select="RevisionNumber" /><br />
+                      Scale: <xsl:value-of select="Scale" /><br />
+                      Date Drawn: <xsl:value-of select="FirstDate" /><br />
+                      Date Approved: <xsl:value-of select="LastDate" /><br />
+                      <br />
+                      PDF Filename: <xsl:copy-of select="$LinktoPDF" /><br />
+                      PDF File Location: <xsl:value-of select="$LinktoPDFLocation" /><br />
+                      <br />
+                      CAD Drawing: <a target="_blank" href="{$OpenDWG}">
+                        <xsl:copy-of select="$LinktoDWG" />
+                      </a><br />
+                      CAD File Location: <xsl:value-of select="$LinktoDWGLocation" /><br />
+                      <br />
+                    </td>
+                    <td>
+                      <a class='imagepic' target="_blank" href="{$OpenPDF}">
+                        <img src="{$LinktoThumbnail}" width="500" />
+                        <!-- <span><img src="{$LinktoThumbnail}" /></span> -->
+                      </a>
+
+                    </td>
+                  </tr>
+
+                </xsl:for-each>
+              </xsl:when>
+
+            </xsl:choose>
+          </tbody>
+        </table>
+      </body>
+    </html>
+  </xsl:template>
+
+</xsl:stylesheet>
