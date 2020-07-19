@@ -1,3 +1,11 @@
+2020-07-19
+Drawing Retrieval System proof of concept published on restricted web site.
+The stystem is now fully operational but restricted to limited source material available to SpaceWorx.
+
+The system concept is to allow for a visual search of drawings once a filtering exercise has been carried out on the full repository.  A compact image of the Original PDF is stored in the web site to speed up response, this image is active and clicking on it will open a second window with the original PDF file.  This PDF file can then be re-saved locally for distribution to project teams if necessary.  The original PDF file remains on the server.  The system can work with DWG files to launch AutoCAD or any other installed Dwg viewer application.
+The files can be stored on the server to limit storage requirements on the Web or to enable other searches, editing or greater security.  It is proposed that the files are stored in a directory structure that follows\University\Campus\Building.  Sub-directories by  specialist or discipline are possible where there are a lot of drawings. Drawings can also be moved into Archive folders to take them out of the filter process.  The system can be extended for other file formats such as Revit, Excel or Word.
+Security will be enabled at a network level by restricting access to the Web Site.  The Objective is to make Reference and current drawings available to Facilities Management staff from any point of the campus with either a PC or Mobile device.
+
 2020-06-19
 Drawing Retrieval System current status
 
