@@ -34,23 +34,23 @@ Drawing Retrieval System current status
 	<Drawings>
 		<DrawingNumber>-</DrawingNumber>			The drawing number on the drawing in the title block
 		<DrawingTitle>-</DrawingTitle>				The description of the drawing in the title block
-		<DrawingDescription>-</DrawingDescription>	Normalised description of drawing title
-		<Scale>-</Scale>							The scale of the drawing as stated in the title block
+		<DrawingDescription>-</DrawingDescription>		Normalised description of drawing title
+		<Scale>-</Scale>					The scale of the drawing as stated in the title block
 		<RevisionNumber>-</RevisionNumber>			The latest revision number of the drawing
-		<Consultant>-</Consultant>					Name of consultant or practice that produced documentation
-		<Building>-</Building>						The building name or reference as it is currently known
-		<BuildingAB>-</BuildingAB>					As-built reference to building on the drawing
-		<Floor>-</Floor>							The floor reference of the drawing
-		<FloorID>-</FloorID>						Floor Sequence Number e.g. 00=Ground, 01=First, B1=Basement 1, L1=Level 1
-		<Discipline>-</Discipline>					Engineering discipline of the drawing
-		<Site>-</Site>								Campus reference of the drawing
-		<DWGFile>-</DWGFile>						The CAD filename of the drawing
+		<Consultant>-</Consultant>				Name of consultant or practice that produced documentation
+		<Building>-</Building>					The building name or reference as it is currently known
+		<BuildingAB>-</BuildingAB>				As-built reference to building on the drawing
+		<Floor>-</Floor>					The floor reference of the drawing
+		<FloorID>-</FloorID>					Floor Sequence Number e.g. 00=Ground, 01=First, B1=Basement 1, L1=Level 1
+		<Discipline>-</Discipline>				Engineering discipline of the drawing
+		<Site>-</Site>						Campus reference of the drawing
+		<DWGFile>-</DWGFile>					The CAD filename of the drawing
 		<DWGLocation>-</DWGLocation>				Path to DWG file
-		<PDFFile>-</PDFFile>						PDF Filename
+		<PDFFile>-</PDFFile>					PDF Filename
 		<PDFLocation>-</PDFLocation>				Path to PDF file
-		<JPGFile>-</JPGFile>						JPG Filename
+		<JPGFile>-</JPGFile>					JPG Filename
 		<JPGLocation>-</JPGLocation>				Path to JPG file
-		<Subject>-</Subject>						Document subject
+		<Subject>-</Subject>					Document subject
 		<FileLocation>-</FileLocation>				Path to capture file
 	</Drawings>
 	
