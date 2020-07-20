@@ -1,10 +1,11 @@
 2020-07-19
 Drawing Retrieval System proof of concept published on restricted web site.
-The stystem is now fully operational but restricted to limited source material available to SpaceWorx.
+The system is now fully operational but restricted to limited source material available to SpaceWorx. The application is designed to overcome the limitations of conventional file naming for complex details through creating metadata on each drawing file that can be utilised to rapidly fine the correct drawing.
 
 The system concept is to allow for a visual search of drawings once a filtering exercise has been carried out on the full repository.  A compact image of the Original PDF is stored in the web site to speed up response, this image is active and clicking on it will open a second window with the original PDF file.  This PDF file can then be re-saved locally for distribution to project teams if necessary.  The original PDF file remains on the server.  The system can work with DWG files to launch AutoCAD or any other installed Dwg viewer application.
 The files can be stored on the server to limit storage requirements on the Web or to enable other searches, editing or greater security.  It is proposed that the files are stored in a directory structure that follows\University\Campus\Building.  Sub-directories by  specialist or discipline are possible where there are a lot of drawings. Drawings can also be moved into Archive folders to take them out of the filter process.  The system can be extended for other file formats such as Revit, Excel or Word.
 Security will be enabled at a network level by restricting access to the Web Site.  The Objective is to make Reference and current drawings available to Facilities Management staff from any point of the campus with either a PC or Mobile device.
+
 
 2020-06-19
 Drawing Retrieval System current status
@@ -34,24 +35,24 @@ Drawing Retrieval System current status
 	<Drawings>
 		<DrawingNumber>-</DrawingNumber>			The drawing number on the drawing in the title block
 		<DrawingTitle>-</DrawingTitle>				The description of the drawing in the title block
-		<DrawingDescription>-</DrawingDescription>		Normalised description of drawing title
-		<Scale>-</Scale>					The scale of the drawing as stated in the title block
+		<DrawingDescription>-</DrawingDescription>	Normalised description of drawing title
+		<Scale>-</Scale>							The scale of the drawing as stated in the title block
 		<RevisionNumber>-</RevisionNumber>			The latest revision number of the drawing
-		<Consultant>-</Consultant>				Name of consultant or practice that produced documentation
-		<Building>-</Building>					The building name or reference as it is currently known
-		<BuildingAB>-</BuildingAB>				As-built reference to building on the drawing
-		<Floor>-</Floor>					The floor reference of the drawing
-		<FloorID>-</FloorID>					Floor Sequence Number e.g. 00=Ground, 01=First, B1=Basement 1, L1=Level 1
-		<Discipline>-</Discipline>				Engineering discipline of the drawing
-		<Site>-</Site>						Campus reference of the drawing
-		<DWGFile>-</DWGFile>					The CAD filename of the drawing
+		<Consultant>-</Consultant>					Name of consultant or practice that produced documentation
+		<Building>-</Building>						The building name or reference as it is currently known
+		<BuildingAB>-</BuildingAB>					As-built reference to building on the drawing
+		<Floor>-</Floor>							The floor reference of the drawing
+		<FloorID>-</FloorID>						Floor Sequence Number e.g. 00=Ground, 01=First, B1=Basement 1, L1=Level 1
+		<Discipline>-</Discipline>					Engineering discipline of the drawing
+		<Site>-</Site>								Campus reference of the drawing
+		<DWGFile>-</DWGFile>						The CAD filename of the drawing
 		<DWGLocation>-</DWGLocation>				Path to DWG file
-		<PDFFile>-</PDFFile>					PDF Filename
+		<PDFFile>-</PDFFile>						PDF Filename
 		<PDFLocation>-</PDFLocation>				Path to PDF file
-		<JPGFile>-</JPGFile>					JPG Filename
+		<JPGFile>-</JPGFile>						JPG Filename
 		<JPGLocation>-</JPGLocation>				Path to JPG file
-		<Subject>-</Subject>					Document subject
+		<Subject>-</Subject>						Document subject
 		<FileLocation>-</FileLocation>				Path to capture file
 	</Drawings>
 	
-- Due to the different ways of handling XML files over HTTP this system does not work with Internet Explorer and Microsoft Edge Legacy at this stage. It does work with Chrome, FireFox and Microsift Edge Insider (Dev).
+- Due to the different ways of handling XML files over HTTP this system does not work with Internet Explorer and Microsoft Edge Legacy at this stage. It does work with Chrome, FireFox, Microsoft Edge (Cromium) and Microsift Edge Insider (Dev).

@@ -1,0 +1,11 @@
+Drawing Retrieval System proof of concept published on restricted web site.
+The system is now operational but restricted to limited source material available to SpaceWorx. The application is designed to overcome the limitations of conventional file naming for complex details through creating metadata on each drawing file that can be utilised to rapidly fine the correct drawing.
+
+The system concept is to allow for a visual search of drawings once a filtering exercise has been carried out on the full repository.  A compact image of the Original PDF is stored in the web site to speed up response, this image is active and clicking on it will open a second window with the original PDF file.  This PDF file can then be re-saved locally for distribution to project teams if necessary.  The original PDF file remains on the server.  
+
+The drawing database can be structured to suit any requirements.  The file directory for the original files is freeform, however it is recommended that the directory structure follows the hierachy of the property portfolio so that the original drawings files can be accessed by a conventional directory search.
+
+The archivist's details will be provided so that the first line of support is provided should individual drawings not be present.  The second line of support will be SpaceWorx.  
+
+The entire code base can be hosted on the company servers should this be necessary. The drawings directory does not have to be on the same server as the web site, but both the web site and the shared directories for the drawings must be accessible to the client.
+

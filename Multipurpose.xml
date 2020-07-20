@@ -7500,61 +7500,13 @@
 </Drawings>
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
-<DrawingTitle>Basement 1</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingTitle>Basement 01</DrawingTitle>
+<DrawingDescription>General Arrangement Drawing of Basement 01 Level - 4 600</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Basement 1</Floor>
-<FloorID>B1</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>Basement 20200424.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>Basement 20200424.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>Basement 20200424.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>Basement 1</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Basement 1</Floor>
-<FloorID>B1</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>Basement 20200514.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>Basement 20200514.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>Basement 20200514.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>Basement 1</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>SpaceWorx</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Basement 1</Floor>
@@ -7578,7 +7530,7 @@
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>SpaceWorx</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Basement 2</Floor>
@@ -7597,60 +7549,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-00</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Ground Floor</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Ground Floor</Floor>
-<FloorID>00</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>BCE-1113-SH-00 20200428.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>BCE-1113-SH-00 20200428.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>BCE-1113-SH-00 20200428.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>BCE-1113-SH-00</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Ground Floor</Floor>
-<FloorID>00</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>BCE-1113-SH-00 20200507.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>BCE-1113-SH-00 20200507.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>BCE-1113-SH-00 20200507.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>BCE-1113-SH-00</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>SpaceWorx</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Ground Floor</Floor>
@@ -7669,12 +7573,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-00</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Ground Floor Level 0 000</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>Wit PIMD</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Ground Floor</Floor>
@@ -7693,12 +7597,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-03</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Third Floor Level 10 350</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>Wit PIMD</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Third Floor</Floor>
@@ -7716,12 +7620,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-04</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Fourth Floor Level 13 800</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>Wit PIMD</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Fourth Floor</Floor>
@@ -7740,12 +7644,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-04</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Fourth Floor Level 13 800</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>SpaceWorx</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Fourth Floor</Floor>
@@ -7763,37 +7667,13 @@
 </Drawings>
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
-<DrawingTitle>BCE-1113-SH-04 temp</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Fourth Floor</Floor>
-<FloorID>04</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>BCE-1113-SH-04 temp.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>BCE-1113-SH-04 temp.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>BCE-1113-SH-04 temp.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-06</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Sixth Floor Level 20 700</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>Wit PIMD</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Sixth Floor</Floor>
@@ -7811,37 +7691,13 @@
 </Drawings>
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
-<DrawingTitle>BCE-1113-SH-08 temp</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Eighth Floor</Floor>
-<FloorID>08</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>BCE-1113-SH-08 temp.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>BCE-1113-SH-08 temp.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>BCE-1113-SH-08 temp.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-08</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Eighth Floor Level 27 600</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>Wit PIMD</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Eighth Floor</Floor>
@@ -7860,12 +7716,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-09</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Ninth Floor Level 31 050</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>Wit PIMD</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Nineth Floor</Floor>
@@ -7884,12 +7740,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-10</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Tenth Floor Level 34 500</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>Wit PIMD</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Tenth Floor</Floor>
@@ -7908,12 +7764,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-11</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Eleventh Floor Level 37 950</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>Wit PIMD</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Eleventh Floor</Floor>
@@ -7932,84 +7788,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-B1</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Basement 01 Level - 4 600</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Basement 1</Floor>
-<FloorID>B1</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>BCE-1113-SH-B1 20200428.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>BCE-1113-SH-B1 20200428.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>BCE-1113-SH-B1 20200428.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>BCE-1113-SH-B1</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Basement 1</Floor>
-<FloorID>B1</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>BCE-1113-SH-B1 20200505.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>BCE-1113-SH-B1 20200505.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>BCE-1113-SH-B1 20200505.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>BCE-1113-SH-B1</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Basement 1</Floor>
-<FloorID>B1</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>BCE-1113-SH-B1 20200506.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>BCE-1113-SH-B1 20200506.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>BCE-1113-SH-B1 20200506.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>BCE-1113-SH-B1</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>SpaceWorx</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Basement 1</Floor>
@@ -8027,37 +7811,13 @@
 </Drawings>
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
-<DrawingTitle>BCE-1113-SH-B1(1)</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Basement 1</Floor>
-<FloorID>B1</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>BCE-1113-SH-B1(1).dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>BCE-1113-SH-B1(1).pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>BCE-1113-SH-B1(1).jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-B1</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Basement 01 Level - 4 600</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>Wit PIMD</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Basement 1</Floor>
@@ -8076,36 +7836,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-B2</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Basement 02 Level - 7 900</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Basement 2</Floor>
-<FloorID>B2</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>BCE-1113-SH-B2 20200428.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>BCE-1113-SH-B2 20200428.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>BCE-1113-SH-B2 20200428.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>BCE-1113-SH-B2</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>SpaceWorx</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Basement 2</Floor>
@@ -8124,12 +7860,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-B2</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Basement 02 Level - 7 900</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>Wit PIMD</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Basement 2</Floor>
@@ -8148,36 +7884,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-B3</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Basement 03 Level -11 200</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Basement 3</Floor>
-<FloorID>B3</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>BCE-1113-SH-B3 20200428.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>BCE-1113-SH-B3 20200428.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>BCE-1113-SH-B3 20200428.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>BCE-1113-SH-B3</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>SpaceWorx</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Basement 3</Floor>
@@ -8196,12 +7908,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>BCE-1113-SH-B3</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>General Arrangement Drawing of Basement 03 Level -11 200</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>Wit PIMD</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Basement 3</Floor>
@@ -8220,12 +7932,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>GAES Lab</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>Previous Project Drawing</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>SRS Architects</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>-</Floor>
@@ -8244,88 +7956,16 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>Podium</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>Podium Roof Plan</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>SpaceWorx</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>-</Floor>
-<FloorID>_NOT Applicable</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>Podium 20200424.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>Podium 20200424.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>Podium 20200424.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>Podium</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>-</Floor>
-<FloorID>_NOT Applicable</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>Podium 20200511.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>Podium 20200511.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>Podium 20200511.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>Podium</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>-</Floor>
-<FloorID>_NOT Applicable</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>Podium 20200512.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>Podium 20200512.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>Podium 20200512.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>Podium</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>-</Floor>
-<FloorID>_NOT Applicable</FloorID>
+<FloorID>RP</FloorID>
 <Discipline>Architecture</Discipline>
 <Site>East Campus</Site>
 <DWGFile>Podium 20200514.dwg</DWGFile>
@@ -8340,12 +7980,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>Prep Drawing</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>Base Drawing for drawing layout and Grid Lines</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>SpaceWorx</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>-</Floor>
@@ -8364,16 +8004,16 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>Robert Sobukwe Block Basement and Ground Floor</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>Previous Project Drawing</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>SpaceWorx</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
-<Floor>Basement, Ground</Floor>
-<FloorID>B3, 00</FloorID>
+<Floor>Basement 1, Basement 2, Ground</Floor>
+<FloorID>B1, B2, 00</FloorID>
 <Discipline>Architecture</Discipline>
 <Site>East Campus</Site>
 <DWGFile>Robert Sobukwe Block Basement and Ground Floor 2018-05-29.dwg</DWGFile>
@@ -8388,180 +8028,12 @@
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
 <DrawingTitle>Roof Plan</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>Composite Roof Plan of Tower Block</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Roof</Floor>
-<FloorID>RP</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>Roof Plan 20200330.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>Roof Plan 20200330.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>Roof Plan 20200330.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>Roof Plan</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Roof</Floor>
-<FloorID>RP</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>Roof Plan 20200408.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>Roof Plan 20200408.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>Roof Plan 20200408.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>Roof Plan</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Roof</Floor>
-<FloorID>RP</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>Roof Plan 202004081.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>Roof Plan 202004081.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>Roof Plan 202004081.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>Roof Plan</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Roof</Floor>
-<FloorID>RP</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>Roof Plan 20200414.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>Roof Plan 20200414.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>Roof Plan 20200414.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>Roof Plan</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Roof</Floor>
-<FloorID>RP</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>Roof Plan 20200415.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>Roof Plan 20200415.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>Roof Plan 20200415.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>Roof Plan</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Roof</Floor>
-<FloorID>RP</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>Roof Plan 20200417.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>Roof Plan 20200417.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>Roof Plan 20200417.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>Roof Plan</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Roof</Floor>
-<FloorID>RP</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>Roof Plan 20200424.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>Roof Plan 20200424.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>Roof Plan 20200424.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>Roof Plan</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>SpaceWorx</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>Roof</Floor>
@@ -8579,133 +8051,13 @@
 </Drawings>
 <Drawings>
 <DrawingNumber>-</DrawingNumber>
-<DrawingTitle>Roof Plan</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>Roof</Floor>
-<FloorID>RP</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>Roof Plan.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>Roof Plan.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>Roof Plan.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>RWDPDuct</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>-</Floor>
-<FloorID>_NOT Applicable</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>RWDPDuct.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>RWDPDuct.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>RWDPDuct.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>RWDPMain</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>-</Floor>
-<FloorID>_NOT Applicable</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>RWDPMain.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>RWDPMain.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>RWDPMain.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>RWDPMainRoof</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>-</Floor>
-<FloorID>_NOT Applicable</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>RWDPMainRoof.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>RWDPMainRoof.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>RWDPMainRoof.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
-<DrawingTitle>RWDPUpper</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
-<StartDate>-</StartDate>
-<Scale>-</Scale>
-<Drawn>-</Drawn>
-<RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
-<Building>Solomon Mahlangu House</Building>
-<BuildingAB>-</BuildingAB>
-<Floor>-</Floor>
-<FloorID>_NOT Applicable</FloorID>
-<Discipline>Architecture</Discipline>
-<Site>East Campus</Site>
-<DWGFile>RWDPUpper.dwg</DWGFile>
-<DWGLocation>/Wits/Drawings/</DWGLocation>
-<PDFFile>RWDPUpper.pdf</PDFFile>
-<PDFLocation>/Wits/Drawings/</PDFLocation>
-<JPGFile>RWDPUpper.jpg</JPGFile>
-<JPGLocation>/Wits/Drawings/</JPGLocation>
-<Subject>Current Drawings</Subject>
-<FileLocation>/Wits/Drawings/</FileLocation>
-</Drawings>
-<Drawings>
-<DrawingNumber>-</DrawingNumber>
 <DrawingTitle>Wits Default</DrawingTitle>
-<DrawingDescription>-</DrawingDescription>
+<DrawingDescription>Default drawing with layer information</DrawingDescription>
 <StartDate>-</StartDate>
 <Scale>-</Scale>
 <Drawn>-</Drawn>
 <RevisionNumber>-</RevisionNumber>
-<Consultant>-</Consultant>
+<Consultant>SpaceWorx</Consultant>
 <Building>Solomon Mahlangu House</Building>
 <BuildingAB>-</BuildingAB>
 <Floor>-</Floor>
